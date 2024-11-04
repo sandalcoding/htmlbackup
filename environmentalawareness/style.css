@@ -1,0 +1,219 @@
+.wow {
+  width: 100px;
+}
+#banner {
+  height:1000px;
+  width:1600px;
+  background-size:cover;
+  background-position:center;
+  background:linear-gradient(rgba(0,0,0,0.1),lawngreen), url(Simple-Banner.jpg);
+}
+.banner-text {
+  text-align:center;
+  padding-top:500px;
+}
+.banner-button {
+  text-align:center;
+  margin:10px 0px;
+}
+.banner-button a {
+  width:200px;
+  text-decoration:none;
+  display:inline-block;
+  margin:0px 10px;
+  padding:12px 0px;
+  color:white;
+  border:2px solid white;
+  position:relative;
+  z-index:1;
+  transition-color:0.5s;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.banner-button a span {
+  width:0%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background:white;
+  z-index:-1;
+  transition:0.5s;
+}
+.banner-button a:hover span {
+  width:100%
+}
+.banner-button a:hover {
+  color:black;
+}
+.banner-text h1 {
+  color:white;
+  font-size:72px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.banner-text h3 {
+  color:white;
+  font-size:36px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+h2 {
+  font-family: 'Chakra Petch', sans-serif;
+}
+p {
+  font-family: 'Chakra Petch', sans-serif;
+}
+.title-text h2 {
+  font-size:48px;
+  color:darkgreen;
+}
+.title-text {
+  text-align:center;
+}
+.contents {
+  font-size:24px;
+  text-align:center;
+}
+.feature-icon span {
+  font-family: 'Chakra Petch', sans-serif;
+}
+.feature-box {
+  width:80%;
+  display:flex;
+  text-align:center;
+  margin-bottom:25px;
+  margin:auto;
+}
+.features {
+  flex-basis:50%;
+}
+.feature-img {
+  flex-basis:50%;
+  margin:auto;
+}
+.feature-image img {
+  width:70%;
+  border-radius:10px;
+  margin-bottom:25px;
+  width:192px;
+  height:108px;
+}
+.features span {
+  font-size:30px;
+  color:blue;
+}
+.feature-icon .fas {
+  line-height:50px;
+  border-radius:10px;
+  border:2px solid darkblue;
+  width:50px;
+  height:50px;
+}
+.desc img {
+  margin-left:45%;
+  margin-right:50%;
+}
+.environmental-box {
+  justify-content:space-around;
+  display:flex;
+  flex-wrap:wrap;
+  margin:auto;
+  width:80%;
+}
+.single-impact img {
+  width:100%;
+  height:270px;
+  border-radius:7.5px;
+}
+.single-impact {
+  text-align:center;
+  text-basis:48%;
+  margin-bottom:10px;
+  color:white;
+  height:270px;
+  width:440px;
+}
+.overlay {
+  cursor:pointer;
+  border-radius:7.5px;
+  margin-top:-270px;
+  background:linear-gradient(rgba(255,255,255,0.4),skyblue);
+  width:100%;
+  height:100%;
+  opacity:0;
+  position:relative;
+}
+.single-impact:hover .overlay {
+  opacity:1;
+}
+.impact-desc {
+  left:10%;
+  position:relative;
+  width:80%;
+  margin-top:-40px;
+  bottom:0;
+  transition: bottom 1s;
+  opacity:0;
+}
+.single-impact:hover .impact-desc {
+  bottom:70%;
+  opacity:1;
+}
+.environmentalists-row {
+  flex-wrap:wrap;
+  justify-content:space-between;
+  display:flex;
+  width:90%;
+  margin:auto;
+}
+.environmentalists-column {
+  transition:transform 0.5s;
+  cursor:pointer;
+  border-radius:5.5px;
+  box-shadow:0px 10px 20px 3px black;
+  padding:10px;
+  margin-bottom:30px;
+  flex-basis:20%;
+}
+.environmentalists-column:hover {
+  transform:translateY(-16px);
+}
+.environmentalists-column p {
+  font-size:17px;
+}
+.user-info img {
+  width:40px;
+  border-radius:4px;
+}
+.user-info .fa {
+  color:deepskyblue;
+  font-size:20px;
+}
+.user-info small {
+  color:deepskyblue
+}
+#footer {
+  background:navajowhite;
+  padding:10px 0 20px;
+  background-size:cover;
+  background-position:center;
+  background:linear-gradient(rgba(255,255,255,0.3),lawngreen), url(Green-Abstract.jpg);
+}
+.footer-row {
+  width:80%;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+#header {
+  background-color:forestgreen;
+}
+#header-nav li a {
+  text-decoration:none;
+  font-family: 'Chakra Petch', sans-serif;
+  color:white;
+}
+.nav-title {
+  font-size:30px;
+  color:white;
+  font-family: 'Chakra Petch', sans-serif;
+}

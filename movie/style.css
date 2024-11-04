@@ -1,0 +1,58 @@
+body {
+  background-color:darkblue;
+}
+h1 {
+  background-color:black;
+  background-height:10px;
+  color:white;
+  border-radius:10px;
+  border:3px solid yellow;
+}
+.wow {
+  width: 100px;
+}
+.movie {
+  border-width:5px;
+  background-color:white;
+  width:170px;
+  height:80px;
+  border-radius:10px;
+  margin:20px;
+  overflow:hidden;
+}
+.col3 {
+  float:left;
+  width:30%;
+}
+.col3 img {
+  width:inherit;
+  height:inherit;
+  display:block;
+}
+.moviename span {
+  font-family:Arial;
+  color:black;
+  font-weight:bold;
+  font-size:9pt;
+  margin-left:30px;
+}
+.moviename {
+  border:3px solid black;
+  border-radius:10px;
+}
+.moviename:hover {
+  box-shadow:10px 10px 1px 1px black;
+}
+.moviename:hover {
+  background-color:limegreen;
+  opacity:0.5;
+  border:3px solid orange;
+  border-radius:10px;
+}
+.moviename span:hover {
+  font-family:Arial;
+  color:white;
+  font-weight:bold;
+  font-size:9pt;
+  margin-left:30px;
+}

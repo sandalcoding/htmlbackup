@@ -1,0 +1,126 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#logo-img img {
+  width:133px;
+  height:75px;
+  margin-top:15px;
+}
+
+.body-header {
+  background-color:darkslategray;
+  width:100%;
+  height:15%;
+}
+#logo-name {
+  color:white;
+  font-size:30px;
+  font-weight:bold;
+  margin:-20px;
+  font-family:Arial;
+}
+#logo {
+  display:flex;
+}
+#main-div {
+  background:linear-gradient(rgba(255,0,255,0.2),mediumpurple), url(Background.jpg);
+  padding-top:120px;
+  background-size:cover;
+  background-position:center;
+}
+.section-heading {
+  padding-left:25%;
+  margin:12px;
+  font-weight:500;
+  font-family:Arial;
+  font-size:40px;
+  color:white;
+}
+.cover-img {
+  margin:10px;
+  border:2px solid yellow;
+  border-radius:20px;
+  overflow:hidden;
+  transition:0.5s;
+  width:25%;
+  height:25%;
+}
+.cover-img img {
+  width:100%;
+  height:100%;
+}
+.section-content{
+	display: flex;
+  margin-left: 24px;
+  margin-right: 24px;
+	flex-wrap:wrap;
+	width: 85%;
+}
+.cover-image{
+    margin: 10px;
+     border:2px solid white;
+     border-radius: 20px;
+     overflow: hidden;
+     transition: 0.5s ease-in-out;
+}
+.section-content:hover div {
+  opacity:0.6;
+  transform:scale(0.8);
+}
+.section-content div:hover {
+  opacity:1;
+  transform:scale(1.1);
+}
+#main-div{
+  background:linear-gradient(rgba(245, 75, 24, 0.2), #081849) , url(Home_pics/music_bg3.jpg);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-position: center;
+}
+aside div img {
+  width:%;
+  height:25%;
+}
+.aside-header {
+  background:linear-gradient(rgba(255,0,255,0.2),mediumpurple), url(Images/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left:10px;
+  padding-right:10px;
+}
+.aside-header img {
+  height:216px;
+  width:384px;
+  border-radius:20px;
+}
+aside h2 {
+  font-family:Arial;
+  font-size:40px;
+  color:white;
+  font-weight:500;
+}
+.aside-header h3 {
+  font-family:Arial;
+  font-size:30px;
+  color:white;
+  font-weight:400;
+}
+.aside-header h4 {
+  font-family:Arial;
+  font-size:20px;
+  color:white;
+  font-weight:300;
+}
+.aside-playlist {
+  text-align:right;
+  position:fixed;
+  top:0;
+  right:0;
+  margin-right:10px;
+  margin-top:125px;
+  overflow-y:scroll;
+  height:30%;
+  
+}

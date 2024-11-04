@@ -1,0 +1,131 @@
+#paragraph-aboutme p {
+  color:blue;
+  font-size:12pt;
+}
+#skills {
+  margin-bottom:275px;
+}
+#Favourites {
+  margin-bottom:275px;
+}
+#sport {
+  margin-bottom:75px;
+}
+.skill-display {
+  
+}
+.skill-progress {
+  border-width:5px;
+  background-color:grey;
+  width:170px;
+  height:80px;
+  border-radius:10px;
+  margin:20px;
+  overflow:hidden;
+}
+.skillbox {
+  border-radius:20px 0px 0px 20px;
+  
+}
+.col3 {
+  float:left;
+  width:30%;
+}
+.skill-65percent {
+  height:inherit;
+  width:65%;
+}
+.blue {
+  background-color:blue;
+}
+.skillname span {
+  font-family:Arial;
+  color:white;
+  font-weight:bold;
+  margin-left:30px;
+}
+.skill-55percent {
+  height:inherit;
+  width:55%;
+}
+.purple {
+  background-color:purple;
+}
+.skill-50percent {
+  height:inherit;
+  width:50%;
+}
+.cyan {
+  background-color:cyan;
+}
+.skill-35percent {
+  height:inherit;
+  width:35%;
+}
+.yellow {
+  background-color:yellow;
+}
+.movie {
+  border-width:5px;
+  background-color:white;
+  width:170px;
+  height:80px;
+  border-radius:10px;
+  margin:20px;
+  overflow:hidden;
+}
+.col3 {
+  float:left;
+  width:30%;
+}
+.col3 img {
+  width:inherit;
+  height:inherit;
+  display:block;
+}
+.moviename span {
+  font-family:Arial;
+  color:black;
+  font-weight:bold;
+  font-size:9pt;
+  margin-left:30px;
+}
+.moviename {
+  border:3px solid black;
+  border-radius:10px;
+}
+.moviename:hover {
+  box-shadow:10px 10px 1px 1px black;
+}
+.moviename:hover {
+  background-color:limegreen;
+  opacity:0.5;
+  border:3px solid purple;
+  border-radius:10px;
+}
+.moviename span:hover {
+  font-family:Arial;
+  color:white;
+  font-weight:bold;
+  font-size:9pt;
+  margin-left:30px;
+}
+#header-nav ul {
+  word-spacing:5px;
+}
+#header-nav li {
+  display:inline-block;
+}
+.nav-menu li a {
+  transition:color 1, border-bottom 4;
+}
+.nav-menu li a:hover {
+  color:red;
+  border-bottom:3px solid black;
+}
+#header-nav li a {
+  text-decoration:none;
+}
+.nav-menu {
+  
+}
